@@ -5,8 +5,9 @@
     <title>Technology - BBC News</title>
     <style type="text/css">
       #topBar{height:40px;
-              width:1000px;
-              margin:0 auto;}
+              width:100%;
+              margin:0 auto;
+              padding-left: 100px;}
       body{margin:0;
            padding:0;
            font-family:Helvetica, Arial, sans-serif;}
@@ -30,12 +31,12 @@
                   position:relative;
                   top:14px;}
        #wigglyline{float:left;
-               width:10px;
-               height:40px;
-               margin-left: 80px;}
+                   width:10px;
+                   height:40px;
+                   margin-left: 80px;}
        #bell{float:left;
-             height:25px;
-             padding:8px 15px 8px 15px;}
+                   height:25px;
+                   padding:8px 15px 8px 15px;}
        .topbar-menu{font-weight:bold;
                    font-size: 90%;
                    padding:13px 15px 0px 15px;
@@ -53,7 +54,49 @@
         #magnifyingglass{width: 36px;
                          padding-top:5px}
         .clear{clear:both;}
-        #redbar-container{background-color:black; }
+        #menu-bar-container{background-color:#FE0002;
+                    height:70px;
+                    width:100%;}
+        h1{
+                    float:left;
+                     padding:0px;
+                     margin:0px;
+                     color:white;
+                     font-size: 40px;
+                     font-weight: none;
+                     padding-top: 10px;
+                     padding-left: 98px}
+         #pointer{width:35px;
+                  padding-top:15px;
+                  }
+         #local-news{ margin-left:700px;
+                      float:left;
+                      color:white;
+                      margin-bottom: 15px;
+                      }
+          #local-news a {color:white;
+                         text-decoration: none;
+                         position:relative;
+                         bottom:15px;
+                         font-weight: bold;}
+          #local-news a:hover{text-decoration: underline;}
+          .clear{clear:both;}
+          #menu-bar-2-container{height:35px;
+                         padding-top: 15px;
+                         background-color: #a91717;
+
+                        }
+          .menu-bar-2-links{color:white;
+                                  text-decoration: none;
+                                  padding-left: 10px;
+                                  padding-right: 7px;
+                                  border-left:1px #BB4545 solid;}
+          .menu-bar-2-links a:hover{text-decoration: underline;}
+
+          #menu-bar-2-firstlink{margin-left: 100px;
+                                color:white;
+                                padding-right: 7px;
+                                text-decoration: none;}
 
 
     </style>
@@ -91,15 +134,42 @@
       </div>
     </div>
 
-    <div class="clear">
+      <div class="clear">
 
-    </div>
+      </div>
 
-    <div id="redbar-container" class="">
+      <div id="menu-bar-container">
+        <h1>NEWS</h1>
+        <div id="local-news"> <a href="#">Find local news</a>
+          <img id="pointer" src="C:\Users\dudic\Desktop\WEBNOTES\BIGDEVCOURSE\CSS3\imagesBBC\pointer.png"
 
-    </div>
+        </div>
+      </div>
+      <div class="clear"></div>
 
 
 
+
+
+      <div id="menu-bar-2-container">
+        <a id="menu-bar-2-firstlink" href="#">Home</a>
+        <a class="menu-bar-2-links"href="#">UK</a>
+        <a href="#" class="menu-bar-2-links">World</a>
+        <a href="#" class="menu-bar-2-links">Business</a>
+        <a href="#" class="menu-bar-2-links">Politics</a>
+        <a href="#" class="menu-bar-2-links">Tech</a>
+        <a href="#" class="menu-bar-2-links">Science</a>
+        <a href="#" class="menu-bar-2-links">Health</a>
+        <a href="#" class="menu-bar-2-links">Education</a>
+        <a href="#" class="menu-bar-2-links">Entertainment & Arts</a>
+        <a href="#" class="menu-bar-2-links">Video & Audio</a>
+        <a href="#" class="menu-bar-2-links">More</a>
+        <img style="width:15px" src="C:\Users\dudic\Desktop\WEBNOTES\BIGDEVCOURSE\CSS3\imagesBBC\morearrow.png" alt="">
+
+
+      </div>
+
+
+      
   </body>
 </html>
