@@ -9,7 +9,7 @@
               margin:0 auto;}
       body{margin:0;
            padding:0;
-           font-family:Helvetica, Arial, freesans, sans-serif;}
+           font-family:Helvetica, Arial, sans-serif;}
       #bbclogo{margin-top:8px;
                width:100px;
                float:left;
@@ -21,8 +21,41 @@
       #signuppic{width:45px;
                 height:40px;
                 float:left;
-                margin-left:10px;}
-      #signInText{font-weight:bold;}
+                margin-left:10px;
+                }
+      #signInText{font-weight:bold;
+                  font-size: 90%;
+                  margin-left:15px;
+                  float:left;
+                  position:relative;
+                  top:14px;}
+       #wigglyline{float:left;
+               width:10px;
+               height:40px;
+               margin-left: 80px;}
+       #bell{float:left;
+             height:25px;
+             padding:8px 15px 8px 15px;}
+       .topbar-menu{font-weight:bold;
+                   font-size: 90%;
+                   padding:13px 15px 0px 15px;
+                   height:27px;}
+        #morearrow{width:15px;
+                   margin-left: 15px;}
+        #searchbox{background-color:#E4E4E4;
+                   border:none;
+                   font-weight:bold;
+                   font-size:14px;
+                   padding:4px;
+                   float:left;
+                   margin:5px 0px 5px 5px;
+                   padding-top: 8px;}
+        #magnifyingglass{width: 36px;
+                         padding-top:5px}
+        .clear{clear:both;}
+        #redbar-container{background-color:black; }
+
+
     </style>
   </head>
   <body>
@@ -32,7 +65,41 @@
         <img id="signuppic"src="C:\Users\dudic\Desktop\WEBNOTES\BIGDEVCOURSE\CSS3\imagesBBC\signuppic.png" alt="">
         <span id="signInText">Sign in</span>
       </div>
+      <div id="beldiv">
+        <img id="wigglyline"src="C:\Users\dudic\Desktop\WEBNOTES\BIGDEVCOURSE\CSS3\imagesBBC\wigglyline.png">
+        <img id="bell" src="C:\Users\dudic\Desktop\WEBNOTES\BIGDEVCOURSE\CSS3\imagesBBC\bell.png" alt="">
+      </div>
+      <div class="topbarsection topbar-menu">
+        <span id="topbar-news-text">News</span>
+      </div>
+      <div class="topbarsection topbar-menu">
+        <span id="topbar-news-text">Sport</span>
+      </div>
+      <div class="topbarsection topbar-menu">
+        <span id="topbar-news-text">Weather</span>
+      </div>
+      <div class="topbarsection topbar-menu">
+        <span id="topbar-news-text">TV</span>
+      </div>
+      <div class="topbarsection topbar-menu">
+        <span id="topbar-news-text">More</span>
+        <img id="morearrow" src="C:\Users\dudic\Desktop\WEBNOTES\BIGDEVCOURSE\CSS3\imagesBBC\morearrow.png" alt="">
+      </div>
+      <div class="topbarsection">
+        <input type="text" id="searchbox" value="Search">
+        <img id="magnifyingglass" src="C:\Users\dudic\Desktop\WEBNOTES\BIGDEVCOURSE\CSS3\imagesBBC\magnifyingglass.png" alt="">
+      </div>
     </div>
+
+    <div class="clear">
+
+    </div>
+
+    <div id="redbar-container" class="">
+
+    </div>
+
+
 
   </body>
 </html>
